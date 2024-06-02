@@ -15,6 +15,8 @@ Format returned:
         y: NUMBER,  // coordinates in reference to the page
         w: NUMBER,
         h: NUMBER,
+        numberRows: NUMBER,
+        numberColumns: NUMBER,
         cells: [  // Every element is a cell of the current table
           {  // This is the first cell of the table
             x: NUMBER,  // coordinates in reference to the table
